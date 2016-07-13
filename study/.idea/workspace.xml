@@ -31,12 +31,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserDaoMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDaoMapper.xml">
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="35">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <marker date="1468407846000" expanded="false" signature="1343:1366" ph="com.mysql.jdbc.Driver" />
+                <marker date="1468407846000" expanded="false" signature="1444:1455" ph="jdbc:mysql://localhost:3306/finance_db?useUnicode=true&amp;characterEncoding=utf-8" />
+                <marker date="1468407846000" expanded="false" signature="1538:1554" ph="root" />
+                <marker date="1468407846000" expanded="false" signature="1637:1653" ph="root" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,15 +83,15 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDaoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/springmvc/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDaoMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/springmvc/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" />
       </list>
     </option>
   </component>
@@ -119,8 +124,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1852" />
-    <option name="y" value="24" />
+    <option name="x" value="-1906" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
@@ -1125,23 +1130,11 @@
       <updated>1468254039724</updated>
       <workItem from="1468254044446" duration="7176000" />
       <workItem from="1468289657725" duration="21861000" />
-      <workItem from="1468395520005" duration="1588000" />
+      <workItem from="1468395520005" duration="3173000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_addUser - 2016.07.12 at 18h 34m 49s.xml">
-      <configuration name="UserTest.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_addUser - 2016.07.12 at 18h 35m 42s.xml">
-      <configuration name="UserTest.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_addUser - 2016.07.12 at 18h 36m 05s.xml">
-      <configuration name="UserTest.addUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_addUser - 2016.07.12 at 18h 37m 24s.xml">
-      <configuration name="UserTest.addUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_addUser - 2016.07.12 at 18h 37m 46s.xml">
       <configuration name="UserTest.addUser" configurationId="JUnit" />
     </history-entry>
@@ -1154,6 +1147,18 @@
     <history-entry file="UserTest_addUser - 2016.07.13 at 10h 07m 46s.xml">
       <configuration name="UserTest.addUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTest_addUser - 2016.07.13 at 18h 59m 36s.xml">
+      <configuration name="UserTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_addUser - 2016.07.13 at 19h 00m 18s.xml">
+      <configuration name="UserTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_addUser - 2016.07.13 at 19h 01m 25s.xml">
+      <configuration name="UserTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_addUser - 2016.07.13 at 19h 04m 11s.xml">
+      <configuration name="UserTest.addUser" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UserTest_getUser - 2016.07.12 at 17h 22m 19s.xml">
       <configuration name="UserTest.getUser" configurationId="JUnit" />
     </history-entry>
@@ -1162,7 +1167,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30625000" />
+    <option name="totallyTimeSpent" value="32210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1174,24 +1179,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1852" y="24" width="1920" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1906" y="23" width="1920" height="1053" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34114054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42636457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6181263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1201,10 +1208,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25025746" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1290,13 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.4/mybatis-3.2.4.jar!/org/apache/ibatis/annotations/Update.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1308,6 +1306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,24 +1563,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/springmvc/test/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/springmvc/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="338">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-            <marker date="1468395738000" expanded="true" signature="35:285" ph="..." />
-            <marker date="1468395738000" expanded="true" signature="388:674" ph="{...}" />
-            <marker date="1468395738000" expanded="true" signature="398:427" ph="/resource/" />
-            <marker date="1468395738000" expanded="true" signature="711:924" ph="{...}" />
-            <marker date="1468395738000" expanded="true" signature="961:1051" ph="{...}" />
+            <marker date="1468319903000" expanded="true" signature="34:238" ph="..." />
+            <marker date="1468319903000" expanded="true" signature="239:345" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <marker date="1468304181000" expanded="true" signature="97:705" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <marker date="1468319951000" expanded="true" signature="185:1139" ph="..." />
+            <marker date="1468319951000" expanded="true" signature="229:366" ph="..." />
+            <marker date="1468319951000" expanded="true" signature="398:553" ph="..." />
+            <marker date="1468319951000" expanded="true" signature="569:1122" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <marker date="1468300783000" expanded="true" signature="97:1358" ph="..." />
+            <marker date="1468300783000" expanded="true" signature="997:1169" ph="..." />
+            <marker date="1468300783000" expanded="true" signature="1043:1157" ph="..." />
+            <marker date="1468300783000" expanded="true" signature="1062:1137" ph="..." />
+            <marker date="1468300783000" expanded="true" signature="1297:1349" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="234">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="41" />
           <folding>
             <marker date="1468376465000" expanded="true" signature="101:2761" ph="..." />
             <marker date="1468376465000" expanded="true" signature="447:610" ph="..." />
@@ -1606,86 +1639,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1468300783000" expanded="true" signature="97:1358" ph="..." />
-            <marker date="1468300783000" expanded="true" signature="997:1169" ph="..." />
-            <marker date="1468300783000" expanded="true" signature="1043:1157" ph="..." />
-            <marker date="1468300783000" expanded="true" signature="1062:1137" ph="..." />
-            <marker date="1468300783000" expanded="true" signature="1297:1349" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <marker date="1468314720000" expanded="true" signature="97:3478" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1246:2636" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1322:1393" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1423:1482" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1517:1581" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1616:1680" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1744:1794" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1857:1906" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="1968:2021" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2080:2130" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2189:2238" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2306:2358" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2436:2487" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2556:2624" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2648:2759" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="2820:3036" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="3183:3285" ph="..." />
-            <marker date="1468314720000" expanded="true" signature="3345:3469" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1468304181000" expanded="true" signature="97:705" ph="..." />
-          </folding>
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/springmvc/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="572">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1468319951000" expanded="true" signature="185:1139" ph="..." />
-            <marker date="1468319951000" expanded="true" signature="229:366" ph="..." />
-            <marker date="1468319951000" expanded="true" signature="398:553" ph="..." />
-            <marker date="1468319951000" expanded="true" signature="569:1122" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/springmvc/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <marker date="1468319903000" expanded="true" signature="34:238" ph="..." />
-            <marker date="1468319903000" expanded="true" signature="239:345" ph="/**...*/" />
+            <marker date="1468407224000" expanded="true" signature="35:278" ph="..." />
+            <marker date="1468407224000" expanded="true" signature="381:667" ph="{...}" />
+            <marker date="1468407224000" expanded="true" signature="391:420" ph="/resource/" />
+            <marker date="1468407224000" expanded="true" signature="704:917" ph="{...}" />
+            <marker date="1468407224000" expanded="true" signature="954:1044" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDaoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="312">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1468405607000" expanded="true" signature="208:826" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="218:287" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="378:454" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="388:441" ph="insert into t_user... " />
+            <marker date="1468405607000" expanded="true" signature="505:585" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="515:572" ph="update t_use... " />
+            <marker date="1468405607000" expanded="true" signature="651:709" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="661:696" ph="select * fro... t_user" />
+            <marker date="1468405607000" expanded="true" signature="759:815" ph="..." />
+            <marker date="1468405607000" expanded="true" signature="769:802" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1468407846000" expanded="false" signature="1343:1366" ph="com.mysql.jdbc.Driver" />
+            <marker date="1468407846000" expanded="false" signature="1444:1455" ph="jdbc:mysql://localhost:3306/finance_db?useUnicode=true&amp;characterEncoding=utf-8" />
+            <marker date="1468407846000" expanded="false" signature="1538:1554" ph="root" />
+            <marker date="1468407846000" expanded="false" signature="1637:1653" ph="root" />
+          </folding>
         </state>
       </provider>
     </entry>

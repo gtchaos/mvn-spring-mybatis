@@ -8,9 +8,21 @@
         id:必须与对应接口的某个对应的方法名一致
 
      -->
-    <insert id="handleUser" parameterType="User" keyProperty="id">
-
+    <insert id="insertUser" parameterType="User" useGeneratedKeys="true" keyColumn="id">
+        insert into t_user(name, age) values(#{name}, #{age})
     </insert>
+
+    <update id="updateUser" parameterType="User">
+        update t_user set name=#{name}, age=#{age} where id=#{id}
+    </update>
+
+    <select id="findById" parameterType="int" resultType="User">
+        select * from t_user where id=#{id}
+    </select>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from t_user where id=#{id}
+    </delete>
 
 </mapper>
 
